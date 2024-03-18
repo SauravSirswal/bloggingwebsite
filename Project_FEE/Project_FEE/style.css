@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    height: 2vh;
+    width: 98%;
+    display: flex;
+    padding: 2vh;
+    color: white;
+    gap: 40vh;
+    justify-content: center;
+    background-color: #ce0393
+}
+.date{
+    display: flex;
+    gap: 5vw;
+}
+.toplinks{
+    display: flex;
+    gap: 2vh;
+    cursor: pointer;
+}
+.navigation{
+    height: auto;
+    box-shadow: 0 0 15px 0 rgb(48, 44, 44);
+    padding: 1vh;
+    display: flex;
+    width: 99%;
+    gap: 9vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+}
+.logo{
+    display: flex;
+    height: 2vh;
+    gap: 1vh;
+    cursor: pointer;
+}
+.toplinks1{
+    display: flex;
+    gap: 2vh;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.social{
+    cursor: pointer;
+}
+.ImgContainer{
+    margin: 3vh;
+    margin-bottom: 0;
+    display: flex;
+    color: white;
+    height: 75vh;
+    width: auto;
+    justify-content: center;
+}
+/* FIRST CONTAINER */
+.First{
+
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0, rgb(39, 37, 37) 95%), url(img1.png);
+    border-bottom: 8px solid #ce0393;
+    background-size: cover;
+    background-position: center;
+    height: 98.8%;
+    width: 60%;
+    display: flex;
+    align-items: end;
+}
+.headline{
+    font-weight: bolder;
+    font-size: 240%;
+    margin: 3vh;
+}
+.tag{
+    font-size: clamp(1vh,3vh,4vh);
+    margin: 3vh;
+    display: flex;
+    align-items: center;
+}
+.paragraph{
+    margin: 3vh;
+    margin-bottom: 8vh;
+}
+.date1{
+    font-weight: bolder;
+    font-size: 125%;
+}
+.buttons button{
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    padding: 6px 15px;
+    background-color: #ce0393;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* SECOND CONTAINER */
+.Second{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+}
+.SecondText{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0, rgb(39, 37, 37) 95%), url(img2.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.ThirdText{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0, rgb(39, 37, 37) 95%), url(img3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.FourthText{
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 0, rgb(39, 37, 37) 95%), url(img4.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.headline1{
+    font-weight: bolder;
+    font-size: 115%;
+    margin: 5vh;
+    margin-left: 1vw;
+}
+.date2{
+    position: absolute;
+    margin: 2vh;
+    margin-left: 1vw;
+    font-weight: bolder;
+    font-size: 125%;
+}
+/* LINE */
+.line{
+    display: flex;
+}
+.f{
+    height: 2vh;
+    background-color:#ce0393;
+}
+/* SMALL PARA */
+.brkcon{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    padding: 3vh 0 4.5vh 2vh;
+    flex-direction: column;
+}
+.breaking{
+    width: 81%;
+    padding: 0 0 3vh 0 ;
+}
+.News{
+    color: #ce0393;
+    font-weight: bolder;
+    font-size: 110%;
+}
+/* line2 */
+.line2{
+    height: 2px;
+    width: 82.8%;
+    background-color: grey;
+}
+/* LEFT */
+.column{
+    display: flex;
+    height: 100%;
+}
+.left{
+    padding-left: 6%;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    height: 80%;
+}
+.latestpost{
+    padding-left: 1vw;
+    margin: 3vh;
+    font-size: 250%;
+    font-weight: bolder;
+    width: 70%;
+    text-wrap: wrap;
+}
+.pinkgrey{
+    display: flex;
+    padding-left: 2.3vw;
+    margin-bottom: 2vh;
+}
+.small{
+    width: 10%;
+    height: 10px;
+    background-color: #ce0393;
+}
+.large{
+    width: 60%;
+    height: 10px;
+    background-color: grey;
+}
+/* SECTION1 */
+
+.section1{
+    margin: 0 0 3vh 45px;
+    width: 70%;
+    display: flex;
+    height: 9%;
+}
+.i1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.head1{
+    height: 50%;
+    margin: 0 30px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.h{
+    font-size: 150%;
+    font-weight: bolder;
+}
+.button2{
+    margin: 15px 0 15px 0;
+}
+.button2 button{
+    border-style: none;
+    color: white;
+    padding: 5px 4px;
+    background-color: #ce0393;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.leftline{
+    height: 2px;
+    width: 70%;
+    background-color: grey;
+    margin-left: 2.3vw;
+    margin-bottom: 3vh;
+}
+/* RIGHT COLUMN */
+.right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.head2{
+    font-weight: bolder;
+    font-size: 250%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 2vw;
+}
+.pinkgrey2{
+    display: flex;
+    margin-left: 2vw;
+}
+.small1{
+    width: 10%;
+    height: 10px;
+    background-color: #ce0393;
+}
+.large1{
+    width: 90%;
+    height: 10px;
+    background-color: grey;
+}
+/* right side content  */
+.head3{
+    padding-top: 3vh;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+.i5 img{
+    margin: 3vh 0 0 0;
+    height: 150px;
+    width: 120%;
+    object-fit: cover;
+}
+.right .leftline{
+    margin-top: 5vh;
+    width: 92%;
+}
+.ok{
+    margin-left: 2.2vw;
+    width: 30%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.advicecontainer{
+    background: #f1f1f1;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part1{
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.head4{
+    font-size: 250%;
+    margin-bottom: 2vh;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+.part2{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1200px;
+    
+}
+.neechekacontent{
+    flex-wrap: wrap;
+}
+.dive{
+    padding-right: 13%;
+    padding-left: 13%;
+}
+.flex{
+    margin-top: 6vh;
+    display: flex;
+    gap: 5vh;
+    justify-content: center;
+}
+.pehliimage{
+    
+    background-color: white;
+}
+.doosriimage{
+    background-color: white;
+}
+.teesriimage{
+    background-color: white;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2vh 2vh 2vh;
+}
+.imcontent{
+    margin: 1vh 2vh 0 2vh;
+    font-weight: bolder;
+    font-size: larger;
+}
+.pinkgrey3{
+    display: flex;
+    margin-left: 8vw;
+}
+.small2{
+    width: 10%;
+    height: 10px;
+    background-color: #ce0393;
+}
+.large2{
+    width: 65%;
+    height: 10px;
+    background-color: grey;
+}
+/* LAST CONTAINER  */
+.lastcontainer{
+    background-color: #242424;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+.pinkgrey4{
+    display: flex;
+    margin-left: 1.5vw;
+    /* margin-bottom: 2vh; */
+}
+.small3{
+    width: 40px;
+    height: 10px;
+    background-color: #ce0393;
+}
+.large3{
+    width: 70%;
+    height: 10px;
+    background-color: grey;
+}
+.aboutus{
+    font-weight: bolder;
+    color: white;
+    margin-top: 15vh;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PopularPost{
+    font-weight: bolder;
+    color: white;
+    margin-top: 15vh;
+    width: 22%;
+}
+.section2{
+    margin-left: 1.5vw;
+    /* width: 75%; */
+    display: flex;
+}
+.i6 img{
+    margin-top: 4vh;
+    height: 12vh;
+    width: 8vw;
+    object-fit: cover;
+}
+.newletter{
+    font-size: clamp(1vh,3vh,4vh);
+    font-weight: bolder;
+    color: white;
+    margin-top: 15vh;
+    width: 22%;
+}
+.descript1{
+    padding: 1.2vw;
+}
+/* handles */
+.handles{
+    display: flex;
+    flex-direction: column;
+}
+.drop{
+    display: flex;
+    padding: 2vh;
+    gap: 2rem;
+    align-items: center;
+}
+.phone{
+    padding: 2vh;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.email{
+    padding: 2vh;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.greyy{
+    background-color: grey;
+    height: 1px;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    margin-right: 1.5vw;
+}
+.social1{
+    cursor: pointer;
+    margin: 4vh;
+}
+.footer{
+    background-color: black;
+    height: 8vh;
+}
+.email1 input{
+    border: none;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    padding: 1vh;
+    width: 80%;
+    border-style: none;
+    border-radius: 40px;
+}
+.email1 button{
+    background-color: #ce0393;
+    color: white;
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    padding: 1vh;
+    width: 30%;
+    border-style: none;
+    border-radius: 40px ;
+    cursor: pointer;
+}
+.categories{
+    margin: 3vh;
+
+}
